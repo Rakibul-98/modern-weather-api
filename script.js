@@ -1,5 +1,6 @@
 const loadWeather = ()=>{
     document.getElementById("display-div").innerHTML='';
+    document.getElementById("display-error").innerHTML='';
     const searchBox = document.getElementById("search-field");
     const city = searchBox.value;
     searchBox.value='';
