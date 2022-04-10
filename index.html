@@ -13,13 +13,15 @@
     <section class="container">
         <div class="input-group mb-3 mt-5 w-50 mx-auto">
             <input id="search-field" type="text" class="form-control" placeholder="Enter city" aria-label="Recipient's username" aria-describedby="button-addon2">
-            <button onclick="loadWeather()" class="btn btn-outline-secondary" type="button" id="button-addon2">Search</button>
+            <button onclick="loadWeather()" class="btn btn-success" type="button" id="button-addon2">Search</button>
           </div>
     </section>
     <section class="container">
-        <div id="display-div">
+        <div id="display-div" class="w-50 mx-auto text-center">
 
-
+        </div>
+        <div id="display-error" class="text-center">
+            
         </div>
     </section>
     <script src="script.js"></script>
