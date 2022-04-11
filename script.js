@@ -29,9 +29,17 @@ const displayDetails = (data)=>{
 const showError = (city) =>{
     const errorDiv = document.getElementById("display-error");
     const newDiv = document.createElement("div");
-    newDiv.innerHTML=`
-        <h4 class="text-danger">Warning!!! Can't find the info of ${city}.</h4>
-        <h3>Please insert a valid city name...</h3>
-    `;
+    if(city.length == 0 || city.indexOf(' ') >= 0){
+        newDiv.innerHTML=`
+            <h4 class="text-danger">ERROR!!! Search box can't be empty.</h4>
+            <h3>Please insert a valid city name...</h3>
+        `;
+    }
+    else if (city.length != 0) {
+        newDiv.innerHTML=`
+            <h4 class="text-danger">ERROR!!! Can't find the info of ${city}</h4>
+            <h3>Please insert a valid city name...</h3>
+        `;
+    } 
     errorDiv.appendChild(newDiv);
 }

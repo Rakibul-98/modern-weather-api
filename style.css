@@ -2,6 +2,11 @@ body{
     background-image: url(images/bg2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    min-height: 640px;
+}
+
+.search-bar{
+    margin-top: 100px;
 }
 
 #display-div{
