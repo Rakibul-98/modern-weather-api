@@ -1,39 +1,54 @@
-# Weather App
 
-This website can show current weather condition of any city. I have used weather API for loading the data.
+# Weather App (HTML+CSS+JS)
 
-## Core Features
+This is a UI design for a simple weather app. The design is built with plain HTML and CSS and utilizes an API to retrieve weather data.
+
+
+
+## Features
 
 - Display current weather info
+
 - Load data by API
+
 - Responsive Design
 
-## Used Technologies
-
-- HTML, 
-- CSS,
-- JavaScript,
-- API,
-- Netlify,
+## 🛠 Technologies
+HTML 5, CSS 3, JavaScript, API, Netlify
 
 
-## Live link
+## Demo
 
+Live Link: 
 https://weather2-rakibul.netlify.app/
+## Screenshots
 
-## 🚀 About Me
-I'm a professional full stack developer. I have a degree on full-stack web development. I am currently studying in Computer Science and Engineering (CSE). 
+### Home page
+![SS 1](https://i.ibb.co/FDvJYPZ/weather.png)
+    
+## Run Locally
 
-I am proficient in front-end technologies such as HTML, CSS, JavaScript, and front-end framework as React. 
+Clone the project
 
-I can create pixel-perfect designs that are both aesthetically pleasing and functional. In addition, I am experienced in using version control tools like Git and GitHub, and I am comfortable working in collaborative environments with other developers and designers. 
+```bash
+  https://github.com/Rakibul-98/modern-weather-api.git
+```
 
-I have also expertise in back-end development language Java and authentication system Firebase. I am also experienced in database management using MySQL, and MongoDB.
+Go to the project directory
 
-Moreover, I have excellent problem-solving skills and I can work collaboratively with designers, project managers, and other developers. 
+```bash
+  cd modern-weather-api
+```
 
-I am keep up with the latest web development trends and constantly learning new technologies to improve my skills. I am passionate about performance optimization and know how to optimize web pages for speed and performance. 
+Start the live server
 
-I have a strong foundation in web development technologies and I can work closely with designers and other developers to create high-quality web applications.
 
+## Author
+
+- [@Rakibul Hasan](https://github.com/Rakibul-98)
+
+
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://portfolio-rakibul.netlify.app/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rakibul-98/)
 
